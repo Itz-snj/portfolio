@@ -8,7 +8,8 @@ export default defineConfig({
   },
   server: {
     open: true, // Automatically open the app in the browser
-    port: 3000, // You can specify a custom port
+    port: 3000,
+    host: '0.0.0.0',  // You can specify a custom port
   },
   resolve: {
     alias: {
