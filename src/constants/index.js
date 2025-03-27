@@ -23,7 +23,7 @@ export const PROJECTS = [
   {
     title: "BackEnd Next Js Project {Ask Me Anything as Anonymous kind of application}",
     image: project2,
-    href: "https://github.com/SumanJain2005/project1",
+    href: "https://github.com/Itz-snj/AMA-backend.git",
     height: 250,
     width: 250,
     description:
