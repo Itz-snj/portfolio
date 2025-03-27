@@ -294,6 +294,49 @@ const TimelineComponent = () => {
           </motion.div>
         </VerticalTimelineElement>
 
+        <VerticalTimelineElement
+          className="vertical-timeline-element--education"
+          date="2025 March - 2025 April"
+          contentStyle={{ background: 'rgba(0, 0, 0, 0.8)', color: '#fff' }}
+          contentArrowStyle={{ borderRight: '7px solid rgba(0, 0, 0, 0.8)' }}
+          iconStyle={{ background: 'rgba(0, 0, 0, 0.8)', color: '#fff' }}
+          icon={<SchoolIcon />}
+        >
+        <motion.div
+            initial={{ opacity: 0, x: 100 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            transition={{ duration: 0.5 }}
+            viewport={{ once: false }}
+          >
+          <h3 className="vertical-timeline-element-title">Apertre 2.0</h3>
+          <h4 className="vertical-timeline-element-subtitle">Project Admin</h4>
+          <p>
+            Managing two of own and three different repositories and also working along side the team contrbuting in website building.
+          </p>
+          </motion.div>
+        </VerticalTimelineElement>
+
+        <VerticalTimelineElement
+          className="vertical-timeline-element--education"
+          date="November 2024 - Present"
+          contentStyle={{ background: 'rgba(0, 0, 0, 0.8)', color: '#fff' }}
+          contentArrowStyle={{ borderRight: '7px solid rgba(0, 0, 0, 0.8)' }}
+          iconStyle={{ background: 'rgba(0, 0, 0, 0.8)', color: '#fff' }}
+          icon={<SchoolIcon />}
+        >
+        <motion.div
+            initial={{ opacity: 0, x: -100 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            transition={{ duration: 0.5 }}
+            viewport={{ once: false }}
+          > 
+          <h3 className="vertical-timeline-element-title">Techfiest 25</h3>
+          <h4 className="vertical-timeline-element-subtitle">Academy of Technology</h4>
+          <p>
+            Part of the Techfiest 25, a tech fest organised by the Academy of Technology.
+          </p>
+          </motion.div>
+        </VerticalTimelineElement>
       </VerticalTimeline>
       
       
