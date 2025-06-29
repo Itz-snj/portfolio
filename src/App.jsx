@@ -4,6 +4,7 @@ import Technologies from "./components/technologies";
 import Projects from "./components/projects";
 import Contact from "./components/Contact";
 import TimelineComponent from "./components/Experience";
+import GitHubStats from "./components/GitHubStats";
 
 function App() {
   return (
@@ -29,6 +30,9 @@ function App() {
         <div id="projects">
           <Projects />
         </div>
+        <div id="github">
+          <GitHubStats />
+        </div>  
         <div id="experience">
           <TimelineComponent />
         </div>

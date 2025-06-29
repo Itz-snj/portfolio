@@ -191,7 +191,7 @@ const PortfolioLogo = () => {
   return (
     <a
       href="#"
-      className="relative z-20 flex items-center space-x-2 px-2 py-1 text-sm font-normal text-black"
+      className="relative z-20 flex items-center space-x-2 px-2 py-1 text-sm font-normal"
     >
       <img
         src={logo}
@@ -200,6 +200,7 @@ const PortfolioLogo = () => {
         height={40}
         className="rounded-full"
       />
+      
     </a>
   );
 };
