@@ -2,7 +2,7 @@ import project1 from "../assets/projects/Old-Porfolio.jpg";
 import project2 from "../assets/projects/Proejct1.jpg";
 import project3 from "../assets/projects/Invasion.jpg";
 import project4 from "../assets/projects/p4.jpg";
-import project5 from "../assets/projects/officev2.png";
+import project5 from "../assets/projects/officeV2.png";
 import project6 from "../assets/projects/project6.png";
 import project7 from "../assets/projects/project7.png";
 import project8 from "../assets/projects/Techfiest25.png";
