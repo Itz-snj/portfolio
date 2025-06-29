@@ -2,7 +2,7 @@ import { FaLinkedin } from "react-icons/fa";
 import { motion } from "framer-motion";
 const Contact = () => {
   return (
-    <div className="pb-24">
+    <div id="contact" className="pb-24">
       <motion.h2 
         whileInView={{opacity:1, y:0}} 
         initial={{opacity:1, y: -100}} 

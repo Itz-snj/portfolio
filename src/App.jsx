@@ -1,4 +1,4 @@
-import Navbar from "./components/navbar";
+import PortfolioNavbar from "./components/PortfolioNavbar.jsx";
 import Hero from "./components/hero";
 import Technologies from "./components/technologies";
 import Projects from "./components/projects";
@@ -18,12 +18,20 @@ function App() {
           </div>
         </div>
       </div>
-      <div className="container mx-auto px-8">
-        <Navbar />
-        <Hero />
-        <Technologies />
-        <Projects />
-        <TimelineComponent />
+      <div className="container mx-auto px-8 pt-20">
+        <PortfolioNavbar />
+        <div id="about">
+          <Hero />
+        </div>
+        <div id="technologies">
+          <Technologies />
+        </div>
+        <div id="projects">
+          <Projects />
+        </div>
+        <div id="experience">
+          <TimelineComponent />
+        </div>
         <Contact />
       </div>
     </div>

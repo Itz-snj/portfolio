@@ -154,7 +154,7 @@ const TimelineComponent = () => {
 
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
-          date="August 2024 - Present"
+          date="August 2024 - March 2025"
           contentStyle={{ background: 'rgba(0, 0, 0, 0.8)', color: '#fff' }}
           contentArrowStyle={{ borderRight: '7px solid rgba(0, 0, 0, 0.8)' }}
           iconStyle={{ background: 'rgba(0, 0, 0, 0.8)', color: '#fff' }}
@@ -173,7 +173,7 @@ const TimelineComponent = () => {
 
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
-          date="2024 - August"
+          date="2024 - August "
           contentStyle={{ background: 'rgba(0, 0, 0, 0.8)', color: '#fff' }}
           contentArrowStyle={{ borderRight: '7px solid rgba(0, 0, 0, 0.8)' }}
           iconStyle={{ background: 'rgba(0, 0, 0, 0.8)', color: '#fff' }}
@@ -277,7 +277,7 @@ const TimelineComponent = () => {
 
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
-          date="November 2024 - Present"
+          date="November 2024 - April 2025"
           contentStyle={{ background: 'rgba(0, 0, 0, 0.8)', color: '#fff' }}
           contentArrowStyle={{ borderRight: '7px solid rgba(0, 0, 0, 0.8)' }}
           iconStyle={{ background: 'rgba(0, 0, 0, 0.8)', color: '#fff' }}
@@ -318,7 +318,7 @@ const TimelineComponent = () => {
 
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
-          date="November 2024 - Present"
+          date="November 2024 - April 2025"
           contentStyle={{ background: 'rgba(0, 0, 0, 0.8)', color: '#fff' }}
           contentArrowStyle={{ borderRight: '7px solid rgba(0, 0, 0, 0.8)' }}
           iconStyle={{ background: 'rgba(0, 0, 0, 0.8)', color: '#fff' }}
@@ -335,6 +335,44 @@ const TimelineComponent = () => {
           <p>
             Part of the Techfiest 25, a tech fest organised by the Academy of Technology.
           </p>
+          </motion.div>
+        </VerticalTimelineElement>
+
+        <VerticalTimelineElement
+          className="vertical-timeline-element--education"
+          date="June 2025 - Present"
+          contentStyle={{ background: 'rgba(0, 0, 0, 0.8)', color: '#fff' }}
+          contentArrowStyle={{ borderRight: '7px solid rgba(0, 0, 0, 0.8)' }}
+          iconStyle={{ background: 'rgba(0, 0, 0, 0.8)', color: '#fff' }}
+          icon={<SchoolIcon />}
+        >
+        <motion.div
+            initial={{ opacity: 0, x: -100 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            transition={{ duration: 0.5 }}
+            viewport={{ once: false }}
+          > 
+          <h3 className="vertical-timeline-element-title">Marketting + Frontend</h3>
+          <h4 className="vertical-timeline-element-subtitle">Resourcio pvt ltd</h4>
+          </motion.div>
+        </VerticalTimelineElement>
+
+        <VerticalTimelineElement
+          className="vertical-timeline-element--education"
+          date="January 2025 - Present"
+          contentStyle={{ background: 'rgba(0, 0, 0, 0.8)', color: '#fff' }}
+          contentArrowStyle={{ borderRight: '7px solid rgba(0, 0, 0, 0.8)' }}
+          iconStyle={{ background: 'rgba(0, 0, 0, 0.8)', color: '#fff' }}
+          icon={<SchoolIcon />}
+        >
+            <motion.div
+            initial={{ opacity: 0, x: 100 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            transition={{ duration: 0.5 }}
+            viewport={{ once: false }}
+          >
+          <h3 className="vertical-timeline-element-title">Freelancer</h3>
+          <h4 className="vertical-timeline-element-subtitle">Tara Solutions</h4>
           </motion.div>
         </VerticalTimelineElement>
       </VerticalTimeline>
