@@ -217,7 +217,7 @@ const Hero = () => {
                         <motion.h2 variants={childVariants} className="pb-2 text-4xl tracking-tighter lg:text-8xl"> Suman Jain</motion.h2>
                         <motion.span variants={childVariants} className="bg-gradient-to-r from-stone-300 to-stone-600 bg-clip-text tracking-tight text-3xl font-bold text-transparent">Software Developer</motion.span>
                         <motion.p variants={childVariants} className="my-2 max-w-lg py-6 text-xl leading-relaxed tracking-tighter">{HERO_CONTENT}</motion.p>
-                        <motion.a variants={childVariants} href="https://drive.google.com/file/d/1ZQjTprQbGZC7bUFjpgUXp-r6_1_UJA0n/view?usp=sharing" download className="bg-white rounded-full p-4 text-sm text-stone-800 mb-10">Download Resume</motion.a>
+                        <motion.a variants={childVariants} href="https://drive.google.com/file/d/1iFQzaXFzGzI969cATfVulfmJlNISk4CJ/view?usp=sharing" download className="bg-white rounded-full p-4 text-sm text-stone-800 mb-10">Download Resume</motion.a>
                     </motion.div>
                 </div>
             </div>
